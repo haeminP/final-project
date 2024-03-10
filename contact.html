@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Haemin Park</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Montserrat:400,400i,700,700i" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="script/menu.js" defer="defer"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="top-bar">
+          <button class="btn-menu">&#x2630;</button>
+        </div>
+        <nav>
+          <ul id="nav-ul">
+            <li class="nav-li"><a class="nav-link" href="main.html">About Me</a></li>
+            <li class="nav-li"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-li"><a class="nav-link" href="payment.html">Payment</a></li>
+            <li class="nav-li"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+            <li class="nav-li"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-li"><a class="nav-link" href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="form-container">
+          <form action="process-form.php" method="post">
+            <label for="name"><strong>Name:</strong></label>
+            <input type="text" id="name" name="name" class="form-input" required />
+
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email" class="form-input" required />
+
+            <label for="message"><strong>Message:</strong></label>
+            <textarea id="message" name="message" class="form-message" required></textarea>
+
+            <button type="submit" class="form-submit">Send Message</button>
+          </form>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div>
+          <h2 class="footer-h2">Credits</h2>
+          <p>Designed by: Haemin</p>
+          <p>Images from: Various Sources</p>
+        </div>
+
+        <div>
+          <h2 class="footer-h2">Contact</h2>
+          <p><a class="footer-link">226-504-0824</a></p>
+          <p><a class="footer-link" href="hmin.park1@gmail.com">hmin.park1@gmail.com</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
